@@ -1,4 +1,8 @@
 .div-aboutme{
     min-height: 100vh;
     background: greenyellow;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom:80px;
 }
