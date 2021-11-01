@@ -8,7 +8,7 @@ class Experiences extends Component {
     render(){
         return (
             
-            <div className="div-experiences">
+            <div className="div-experiences" id="experiences">
                 <h1 className="navbar-logo">Experiences</h1>
             </div>
         )
