@@ -1,25 +1,46 @@
+import React, { useState } from 'react';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route, Link } from "react-router-dom";
+
 import Navbar from './components/Navbar/Navbar'
-import AboutMe from './components/AboutMe/AboutMe'
+
+import MainScreen from './components/Main';
+import AboutMe from './components/AboutMe/AboutMe';
 import Experiences from './components/Experiences/Experiences'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 
 
 
-import { Button, Col, Row } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <AboutMe />
-      <Experiences />
-      <Projects />
-      <Skills />
+  
+ <div>
+    <Navbar />
 
-    </div>
+    <Routes>
+      <Route path="/" element={<MainScreen/>}/>
+      <Route path="/AboutMe" element={<AboutMe/>} />
+    </Routes>
+ </div>
+
+        
+        
+          
+          
+
+
+      
+
+ 
+      
+      
+      
+
+
 
 
 

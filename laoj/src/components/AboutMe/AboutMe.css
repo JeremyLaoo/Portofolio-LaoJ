@@ -1,4 +1,43 @@
 .div-aboutme{
     min-height: 100vh;
-    background: greenyellow;
+    /* background: greenyellow; */
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-picture{
+    /* background: pink; */
+    text-align:center;
+}
+.col-text{
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-profil {
+    width:400px;
+    clip-path: ellipse(50% 50%);
+    position: relative;
+}
+
+.text-bienvenue{
+    font-size: 1.8rem;
+
+}
+.text-name{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+
+
+}
+.text-dev{
+    font-size: 1.8rem;
+
 }
