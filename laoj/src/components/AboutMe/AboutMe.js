@@ -10,7 +10,14 @@ class AboutMe extends Component {
             
             <div className="div-aboutme" id="aboutme">
                 <div className="container">
-                    <div className="row">
+                    <div class="background">
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                    </div>
+                    <div className="row header">
                         <div className="col-sm col-picture">
                             <img src="./images/profil.png" className="img-profil" alt="" />
                         </div>

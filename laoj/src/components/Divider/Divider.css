@@ -4,7 +4,7 @@
     height:100px;
     position:absolute;
     left:0px;
-    background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+    background: linear-gradient(to right bottom, #e1eff1 49%, #fff 50%),    linear-gradient(-50deg, #e1eff1 16px, #000 0);
 }
   
 .skew-c{
@@ -13,5 +13,5 @@
     
     position:absolute;
     left:0px;
-    background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+    background: linear-gradient(to left bottom, #fff 49%, #e1eff1 50%);
 }

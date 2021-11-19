@@ -14,7 +14,6 @@ class Skills extends Component {
             
             <div className="div-skills" id="skills">
                 <h1 className="navbar-logo">Skills</h1>
-                <FontAwesomeIcon icon={faCoffee} />
             </div>
         )
     }
