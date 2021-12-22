@@ -1,6 +1,5 @@
 .div-aboutme{
-    min-height: 100vh;
-    /* background: greenyellow; */
+    min-height: 90vh;
     padding-top: 100px;
     padding-left: 80px;
     padding-right: 80px;
@@ -11,14 +10,17 @@
 }
 
 .col-picture{
-    /* background: pink; */
     text-align:center;
+    width:auto;
+    z-index: 1;
 }
 .col-text{
     background: #FFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 2;
+
 }
 
 .img-profil {
@@ -34,10 +36,70 @@
 .text-name{
     font-family: 'Bebas Neue', cursive;
     font-size: 6rem;
-
-
 }
 .text-dev{
     font-size: 1.8rem;
+}
 
+/* BOUTON  */
+.row-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: green;
+}
+.btn-ok{
+    background-color: #eebb4d;
+    border-color: #eebb4d;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 80px;
+}
+.btn--CV{
+    background: transparent;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size:24px;
+}
+.btn--icon{
+    background: transparent !important;
+}
+.icon--button{
+    background: transparent;
+}
+
+@media screen and (max-width:1024px) {
+    .text-name{
+        font-size: 4rem;
+    }
+    .img-profil{
+        width:300px;
+    }
+}
+@media screen and (max-width:768px) {
+    .text-name{
+        font-size: 3rem;
+    }
+    .img-profil{
+        width:300px;
+    }
+}
+@media screen and (max-width:480px) {
+    .text-name{
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    .img-profil{
+        width:200px;
+    }
+    .text-bienvenue {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+    .text-dev{
+        text-align: center;
+    }
 }
