@@ -10,9 +10,7 @@
     align-items: center;
     justify-content: center;
     text-align: center; 
-    
 }
-
 .listSkill{
     background: #FFF;
     width: 80%;
@@ -33,7 +31,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin:10px auto;
-
 }
 .listSkill li{
     color: #fff;
@@ -44,7 +41,6 @@
     padding: 5px 25px;
     width: max-content;
     font-family: 'Fira Sans', sans-serif;
-
 }
 .secondBloc{
     background:#FFF;
@@ -53,9 +49,39 @@
     height: auto;
     padding: 20px;
     border-radius:10px;
-
 }
 .secondBloc h3{
     font-family: 'Bebas Neue', cursive;
+}
 
+
+@media screen and (max-width:575px){
+    .div-skills{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom:30px;
+    }
+    .listSkill{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:380px){
+    .div-skills{
+        padding-left: 20px;
+        padding-right: 20px; 
+        margin-top: 40px;
+    }
+    .listSkill{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius:10px;
+        text-align: center;
+        padding: 20px 10px;
+    }
+  
 }

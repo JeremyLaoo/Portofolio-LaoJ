@@ -10,9 +10,8 @@ class Skills extends Component {
         return (
             
             <div className="div-skills" id="skills">
-                {/* <h3 className="navbar-logo">Skills</h3> */}
                 <div className="listSkill">
-                        <h3 data-scrollReveal="enter left and move 50px over 1.33s">Technologies Développement Web</h3>
+                        <h3>Technologies Développement Web</h3>
                         <ul>
                             <li>React</li>
                             <li>JavaScript</li>
