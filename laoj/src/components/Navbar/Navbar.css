@@ -8,27 +8,17 @@
     font-size:1.2rem;
     position:absolute;
 }
-.navbar-logo{
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-}
-.fa-react{
-    margin-left:0.5rem;
-    font-size:1.6rem;
-}
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap:10px;
     list-style: none;
     text-align: center;
-    width:70vw;
+    width:100vw;
     justify-content: end;
     margin-right: 2rem;
+    padding-left: 0 !important;
 }
-
-
 .nav-links {
     color: #2f2D30 !important;
     text-transform: uppercase;
@@ -37,6 +27,7 @@
     display: inline-block;
     padding: 15px 20px;
     position: relative;
+    width: 100%;
   }
 .nav-links:after {    
     color: #2f2D30;
@@ -52,14 +43,8 @@
     width: 0;
   }
 .nav-links:hover:after { 
-    width: 100%; 
-    left: 0; 
+    font-size: 2rem;
   }
-
-
-.fa-bars{
-    color: #fff;
-}
 .nav-links-mobile{ 
     display:none;
 }
@@ -67,7 +52,8 @@
     display:none;
 }
 
-@media screen and (max-width:960px) {
+
+@media screen and (max-width:1024px) {
     .NavbarItems{
         position: relative;
     }
@@ -82,7 +68,8 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active{
-        background: #fff;
+        background: #FFF;
+        width: 100%;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -90,7 +77,6 @@
     }
     .nav-links{
         text-align: center;
-        padding: 1rem;
         width: 100%;
         display: table;
         font-size: 1.2rem;
@@ -98,15 +84,10 @@
 
     }
     .nav-links:hover{
-        background-color: #7577fa;
+        background-color: #FFF;
         border-radius:0;
     }
-    /* .navbar-logo{
-        position: absolute;
-        top:0;
-        left:0;
-        transform: translate(25%, 50%);
-    } */
+    
     .menu-icon{
         display:block;
         position: absolute;
@@ -115,10 +96,6 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-    }
-    .fa-times{
-        color: #fff;
-        font-size: 2rem;
     }
     .nav-links-mobile{ 
         display: block;
@@ -137,8 +114,32 @@
         color: #6568f4;
         transition: 250ms;
     }
-    Button{
-        display: none;
-    }
+}
+
+
+@media screen and (max-width:768px) {
     
+    .nav-links{
+        text-align: center;
+        width: 100%;
+        display: table;
+        font-size: 1rem;
+        background: #fff;
+    }
+    .nav-menu.active{
+        background: #FFF;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+}
+@media screen and (max-width:690px){
+    
+}
+@media screen and (max-width:380px) {
+    .nav-links{
+        padding: 5px 20px;
+        font-size: 14px;
+    }
 }

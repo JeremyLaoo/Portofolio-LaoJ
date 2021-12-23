@@ -16,7 +16,6 @@ const AboutMe = () => {
             
             <div className="div-aboutme" id="aboutme">
                 <div className="container">
-                    
                     <div className="row blocAboutMe">
                         <div className="col-sm col-picture">
                             {/* ANIMATION IMG */}
@@ -44,7 +43,6 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         )

@@ -20,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     z-index: 2;
-
 }
 
 .img-profil {
@@ -76,6 +75,10 @@
     .img-profil{
         width:300px;
     }
+    .div-aboutme{
+        min-height: 90vh;
+        padding-top: 200px;
+    }
 }
 @media screen and (max-width:768px) {
     .text-name{
@@ -84,20 +87,12 @@
     .img-profil{
         width:300px;
     }
-    .col-text{
-        margin-top:20px;
-        text-align:center;
-    }
-    .blocAboutMe{
-        display: flex;
-        justify-content:center;
-    }
+    
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:690px){
     .text-name{
         font-size: 2rem;
         text-align: center;
-
     }
     .img-profil{
         width:200px;
@@ -110,4 +105,51 @@
     .text-dev{
         text-align: center;
     }
+}
+@media screen and (max-width:575px) {
+    .text-name{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .img-profil{
+        width:200px;
+        
+    }
+    .text-bienvenue {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+    .text-dev{
+        text-align: center;
+    }
+    .div-aboutme{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:380px) {
+    .nav-links{
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .img-profil{
+        width:130px;
+    }
+    .text-name{
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .text-bienvenue {
+        display: none;
+    }
+    .text-dev{
+        font-size:24px;
+    }
+    .div-aboutme{
+        padding-top: 10px;
+        justify-content: flex-start;
+        width: 300px;
+    }
+    
 }
