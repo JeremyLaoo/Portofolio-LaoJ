@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './SocialNetwork.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAt, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faAt, faMobileAlt, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class SocialNetwork extends Component {
@@ -36,6 +36,14 @@ class SocialNetwork extends Component {
 
                     />
                 </a>
+                <a href="./cv_laoj.pdf" className="icon" download="CV_LAO_JEREMY_DEVELOPPEUR_WEB">
+                    <FontAwesomeIcon
+                        className="picto"
+                        icon={faCloudDownloadAlt}
+
+                    />
+                </a>
+                
             </div>
         )
     }

@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './Main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SocialNetwork from './SocialNetwork/index'
+
 import AboutMe from './AboutMe/AboutMe'
 import Experiences from './Experiences/Experiences'
 import Projects from './Projects/Projects'
@@ -12,16 +14,17 @@ import Divider1 from './Divider/divider1'
 import Divider2 from './Divider/divider2'
 
 
-import SocialNetwork from './SocialNetwork/index'
-
 function Main() {
 
   return (
     <div>
       
-      <SocialNetwork/>
       <ScrollToTop />
+      <SocialNetwork/>
+
       <AboutMe />
+      <SocialNetwork/>
+
       <Divider1/>
       <Skills />
       <Divider2 />

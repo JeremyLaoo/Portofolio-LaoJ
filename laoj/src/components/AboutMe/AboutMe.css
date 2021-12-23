@@ -84,6 +84,14 @@
     .img-profil{
         width:300px;
     }
+    .col-text{
+        margin-top:20px;
+        text-align:center;
+    }
+    .blocAboutMe{
+        display: flex;
+        justify-content:center;
+    }
 }
 @media screen and (max-width:480px) {
     .text-name{

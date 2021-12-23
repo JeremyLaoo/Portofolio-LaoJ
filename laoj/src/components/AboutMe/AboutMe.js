@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './AboutMe.css';
 
 import { useSpring, animated} from 'react-spring'
 import Typical from 'react-typical'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
-
 
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]
@@ -21,7 +17,7 @@ const AboutMe = () => {
             <div className="div-aboutme" id="aboutme">
                 <div className="container">
                     
-                    <div className="row ">
+                    <div className="row blocAboutMe">
                         <div className="col-sm col-picture">
                             {/* ANIMATION IMG */}
                             <animated.div
@@ -48,23 +44,7 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row-button">
-                        <div className="">
-                           <button type="button" href="#" className="btn-ok">
-                               <span className="btn--CV">CV</span>
-                               <span className="btn--icon">
-                               <FontAwesomeIcon
-                                    icon={faCloudDownloadAlt}
-                                    className="icon--button"
-                                />
-                               </span>
-                           </button>
-                        </div>
-                        <div className="">
-                           <button type="button" href="#" className="btn-ok">test</button>
-                            
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         )

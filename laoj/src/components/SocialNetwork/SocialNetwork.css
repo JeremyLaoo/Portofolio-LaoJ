@@ -1,13 +1,13 @@
 .social-network{
     display: flex;
     flex-direction: column;
-    z-index:1;
+    z-index:1000;
     position: fixed;
     left: 95%;
-    bottom:40%;
-    /* margin-top: 150px; */
-    padding: 20px;
+    top: 30%;
+    padding: 10px;
     background: rgba(225, 239, 241, 0.5);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     border-radius:10px;
 }
 .icon{
@@ -26,4 +26,21 @@
 
 .picto:hover{
     font-size: 30px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .social-network{
+        left: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    .social-network{
+        left: 90%;
+    }
+}
+@media screen and (max-width:480px) {
+    .social-network{
+        display: none;
+    }
 }
