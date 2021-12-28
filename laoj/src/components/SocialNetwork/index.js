@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './SocialNetwork.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAt, faMobileAlt, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
+import { faAt, faMobileAlt, faCloudDownloadAlt, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class SocialNetwork extends Component {
@@ -10,7 +10,7 @@ class SocialNetwork extends Component {
     render(){
         return (
             <div className="social-network">
-                <a href="mailto:jeremy.lao0390@gmail.com" className="icon" >
+                <a href="mailto:jeremy.lao0390@gmail.com" className="icon" target="_blank">
                     <FontAwesomeIcon 
                         className="picto"
                         icon={faAt}
@@ -22,14 +22,14 @@ class SocialNetwork extends Component {
                         icon={faMobileAlt}
                     />
                 </a>
-                <a href="https://www.linkedin.com/in/jeremylao/" className="icon">
+                <a href="https://www.linkedin.com/in/jeremylao/" className="icon" target="_blank">
                     <FontAwesomeIcon 
                         className="picto"
                         icon={faLinkedin}
 
                     />
                 </a>
-                <a href="https://github.com/JeremyLaoo?tab=repositories" className="icon">
+                <a href="https://github.com/JeremyLaoo?tab=repositories" className="icon" target="_blank">
                     <FontAwesomeIcon
                         className="picto"
                         icon={faGithub}
@@ -39,7 +39,7 @@ class SocialNetwork extends Component {
                 <a href="./cv_laoj.pdf" className="icon" download="CV_LAO_JEREMY_DEVELOPPEUR_WEB">
                     <FontAwesomeIcon
                         className="picto"
-                        icon={faCloudDownloadAlt}
+                        icon={faFilePdf}
 
                     />
                 </a>

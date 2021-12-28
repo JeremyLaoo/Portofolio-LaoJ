@@ -2,28 +2,36 @@
     min-height: 100vh;
     background: #e1eff1;
     padding-top: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom:80px;
+}
+.div-skills .titleSkills{
+    background:transparent;
+
+}
+.div-skills .titleSkills h1{
+    font-family: 'Bebas Neue', cursive;
+    background:transparent;
+    margin-left: 100px;
+}
+.listcardSkills{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center; 
+    background: transparent;
+    margin: 0 100px;
+
 }
-.listSkill{
+.listcardSkills .contentSkill{
     background: #FFF;
-    width: 80%;
-    height: auto;
-    padding: 20px;
-    margin-bottom: 10px;
+    width: 500px;
     border-radius:10px;
     text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
-.listSkill h3{
+.skill h3{
     font-family: 'Bebas Neue', cursive;
 }
-.listSkill ul{
+.skill ul{
     list-style: none;
     max-width: 400px !important;
     display: flex;
@@ -32,7 +40,7 @@
     justify-content: center;
     margin:10px auto;
 }
-.listSkill li{
+.skill li{
     color: #fff;
     font-size: 12px;
     background:#eebb4d;
@@ -41,17 +49,6 @@
     padding: 5px 25px;
     width: max-content;
     font-family: 'Fira Sans', sans-serif;
-}
-.secondBloc{
-    background:#FFF;
-    width: 80%;
-    margin-top: 10px;
-    height: auto;
-    padding: 20px;
-    border-radius:10px;
-}
-.secondBloc h3{
-    font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -62,9 +59,26 @@
         padding-right: 20px;
         padding-bottom:30px;
     }
-    .listSkill{
+    .listcardSkills .contentSkill{
+        width: auto !important;
+        max-width: 500px;
+    }
+    .div-skills .titleSkills{
+        padding-top: 30px;
+    }
+    .div-skills .titleSkills h1{
+        margin-left: 0;
+    }
+    .skill{
         width: 100%;
     }
+    .listcardSkills{
+        margin: 0 10px;
+    }
+    .skill ul{
+        padding: 0 10px;
+    }
+    
 }
 
 
@@ -75,13 +89,12 @@
         padding-right: 20px; 
         margin-top: 40px;
     }
-    .listSkill{
+    .skill{
         width: 100%;
         margin-top: 30px;
         margin-bottom: 10px;
         border-radius:10px;
         text-align: center;
-        padding: 20px 10px;
+        padding: 0;
     }
-  
 }

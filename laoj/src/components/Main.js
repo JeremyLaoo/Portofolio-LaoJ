@@ -29,13 +29,12 @@ function Main() {
       <Skills />
       <Divider2 />
       <Experiences />
-      <Divider1/>
-
       <Projects />
       <Divider2 />
 
-
+      <script src="https://unpkg.com/scrollreveal"></script>
     </div>
+    
   );
 }
 

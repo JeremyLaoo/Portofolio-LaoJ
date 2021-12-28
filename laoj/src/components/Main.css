@@ -4,11 +4,6 @@
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
     color: #2f2D30;
-    background: #FFF;
+    background: transparent;
   }
   
-  .buttonscroll {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
-  }

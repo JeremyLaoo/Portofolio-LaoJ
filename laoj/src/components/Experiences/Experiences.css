@@ -1,8 +1,43 @@
 .div-experiences{
     min-height: 100vh;
-    background: #fff;
+    /* background: red; */
     padding-top: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
     padding-bottom:80px;
+}
+.titleExp{
+    margin-top:10px;
+    background:transparent;
+}
+.titleExp h1{
+    font-family: 'Bebas Neue', cursive;
+    background: transparent;
+    margin-left: 100px;
+
+}
+.listcardExp{
+    display:flex;
+    justify-content: center;
+    background: transparent;
+    width: 100%;
+    /* padding: 0 50px; */
+}
+.listcardExp .contentExp{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    background:#e1eff1;
+    border-radius:10px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    padding: 20px;
+
+}
+
+
+
+@media screen and (max-width:575px){
+    
+}
+
+@media screen and (max-width:380px){
+    
 }
